@@ -1,0 +1,82 @@
+.navbar {
+  background-color: transparent !important; /* Make the background transparent */
+  padding: 1rem; /* Add some padding */
+  position: absolute; /* Position it absolutely for overlay effect */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays on top */
+  margin-bottom: 400px; /* Add margin at the bottom */
+}
+
+.navbar-title {
+  color: white; /* Title color */
+  margin-bottom: 20px; /* Space between title and items */
+}
+
+.navbar-items {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex; /* Align items horizontally */
+}
+
+.navbar-item {
+  color: white; /* Item color */
+  margin: 0 15px; /* Space between items */
+  position: relative; /* For the underline effect */
+  cursor: pointer; /* Pointer on hover */
+}
+.Suburu {
+    height: 100px;
+    width: 100px;
+}
+.navbar-item::after {
+  content: '';
+  position: absolute;
+  left: 50%; /* Start from the center */
+  bottom: -5px; /* Position below the item */
+  width: 0; /* Initial width */
+  height: 2px; /* Underline height */
+  background: white; /* Underline color */
+  transition: width 0.3s ease, left 0.3s ease; /* Transition for width and position */
+}
+
+.navbar-item:hover::after {
+  width: 100%; /* Full width on hover */
+  left: 0; /* Move to the left */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Increase font size for the title */
+  color: white; /* Change text color to white */
+}
+
+.nav-link {
+  color: white; /* Change link color to white */
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for dropdown */
+}
+
+.dropdown-item {
+  color: black; /* Change dropdown item color */
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Change background on hover */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000; /* Set link color to black */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #007bff; /* Change color on hover (Bootstrap primary color) */
+}
+
+.navbar {
+  padding: 1rem; /* Add padding to the navbar */
+}
+
+#MDB-logo {
+  height: 30px; /* Ensure logo height is consistent */
+}

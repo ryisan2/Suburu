@@ -1,0 +1,54 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    background-color: #282c34; /* Dark background color */
+    color: white; /* White text color */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center; /* Center text */
+}
+
+.footer-container {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-around; /* Space out the sections */
+    max-width: 1200px; /* Max width for the footer */
+    margin: 0 auto; /* Center the footer */
+}
+
+.footer-links {
+    flex: 1; /* Allow this section to grow */
+}
+
+.footer-links h4 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.footer-links ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-links li {
+    margin: 5px 0; /* Space between links */
+}
+
+.footer-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer-social {
+    flex: 1; /* Allow this section to grow */
+}
+
+.social-icons {
+    display: flex; /* Flexbox for social icons */
+    justify-content: center; /* Center the icons */
+    gap: 15px; /* Space between icons */
+}
+
+.footer-bottom {
+    margin-top: 20px; /* Space above the bottom text */
+}

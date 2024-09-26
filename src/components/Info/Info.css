@@ -1,0 +1,41 @@
+.info-area {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 0; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .info-item {
+    position: relative; 
+    margin-bottom: 20px; 
+  }
+  
+  .info-image-wrapper {
+    position: relative; 
+  }
+  
+  .info-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    margin-bottom: 100px;
+  }
+  
+  .info-text {
+    position: absolute;
+    font-size: 24px;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px; 
+    text-align: center; 
+  }
+  
+  .info-container {
+    margin-top: 20px; 
+  }

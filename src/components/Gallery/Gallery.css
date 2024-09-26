@@ -1,0 +1,22 @@
+.carousel-item video {
+    width: 100%; /* Make video responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for readability */
+    padding: 10px; /* Optional: padding for better appearance */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+.img-fluid {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+}
+
+.gallery-container {
+    width: 100%; /* Full width */
+    overflow: hidden; /* Prevent overflow */
+}
